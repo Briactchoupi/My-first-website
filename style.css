@@ -1,0 +1,47 @@
+/* Wrheader {
+    background-color: black; 
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    image-align: center;
+    padding: 20px 0;
+}
+
+.produit {
+    display: inline-block;
+    width: 20%; 
+    margin: 0 2%; 
+    text-align: center;
+
+.banner
+color.black;
+background-color.black
+}ite some CSS below */
+
+
+/* Styles existants */
+/* Ajoutez ce nouveau style pour la section produits */
+#produits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centre les éléments horizontalement */
+    gap: 20px; /* Ajoute un espace entre les éléments */
+}
+
+.produit {
+    flex: 0 1 200px; /* Les éléments peuvent rétrécir jusqu'à 200px mais ne peuvent pas grandir, ce qui leur permet de rester dans leur espace */
+    text-align: center; /* Centre le texte à l'intérieur de chaque produit */
+
+    .logo img {
+    max-width: 150px; /* Réduisez la largeur maximale comme souhaité */
+    height: auto;
+
+
